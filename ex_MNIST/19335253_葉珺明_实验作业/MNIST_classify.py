@@ -195,7 +195,6 @@ for epoch in range (epochs):
                 .format(epoch, sum(train_loss)/len(train_loss), \
                     sum(train_acc)/len(train_acc), sum(test_acc)/len(test_acc)))
 
-
 draw_train(epoch_loss, epoch_acc)
 draw_test(epo_test_acc)
 print(epo_test_acc.index(max(epo_test_acc)), max(epo_test_acc))
