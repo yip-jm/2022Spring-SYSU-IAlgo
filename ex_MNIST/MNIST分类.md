@@ -2,9 +2,6 @@
 
 ## <center>MNIST图像分类</center>
 
-<center>葉珺明 19335253</center>
-
-
 
 ---
 
@@ -108,7 +105,7 @@
 
   参考LeNet-5模型的搭建，搭建$6$层网络，具体示意图：
 
-  ![1](D:\1-HW\三下\智能算法\ex_MNIST\pic\1.png)
+  ![1](./pic/1.png)
 
 + 核心代码：
 
@@ -138,11 +135,11 @@
 
 + 50迭代的训练结果：
 
-<img src="\pic\train.png" alt="Figure_1" style="zoom:80%;" />
+<img src="./pic/train.png" alt="Figure_1" style="zoom:80%;" />
 
 + 历经每次迭代后进行训练：
 
-<img src="\pic\test.png" alt="test" style="zoom:80%;" />
+<img src="./pic/test.png" alt="test" style="zoom:80%;" />
 
 随着迭代次数的增加，训练集和测试集的准确度上升，但是迭代次数一定时，测试集准确度下降，说明模型出现过拟合，此时，模型不用再进行迭代训练了。
 
